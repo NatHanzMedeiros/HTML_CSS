@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 *{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
+
 section {
     position: relative;
     width: 100%;
@@ -16,6 +17,7 @@ section {
     justify-content: space-between;
     overflow: hidden;
 }
+
 .circulovermelho{
     position: absolute;
     top: 0;
@@ -24,9 +26,8 @@ section {
     height: 100%;
     background-color: #e51e2a;
     clip-path: circle(47% at bottom right);
-
-
 }
+
 header{
     position: absolute;
     top: 0;
@@ -37,26 +38,36 @@ header{
     align-items: center;
     justify-content: space-between;
 }
+
 header .logo{
     position: relative;
     max-width: 70px;
     margin-left: 0px; 
 }
+
 header .menu ul{
-list-style: none;
-margin-right: 0px; 
-padding: 0;
+    list-style: none;
+    margin-right: 0px; 
+    
 }
+
 header .menu li{
-display: inline-block;
-margin-left: 80px;
+    display: inline-block;
+    margin-left: 80px;
 }
+
 header .menu li a{
-color: #fff;
-text-decoration: none;
-font-weight: 450;
-font-size: 19px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 450;
+    font-size: 19px;
 }
+
+header .menu li a:hover {
+    background-color: #e51e2a;
+    border-radius: 3px;
+  }
+
 .container{
     position: relative;
     width: 100%;
@@ -64,25 +75,29 @@ font-size: 19px;
     align-items: center;
     justify-content: space-between;
 }
+
 .container .textos{
     position: relative;
     max-width: 600px;
     margin-right: 20px;
 }
 .container .textos h2{
-color: #fff;
-font-size: 3em;
-margin-bottom: 10px;
-line-height: 2.5em;
-font-weight: 700;
+    color: #fff;
+    font-size: 3em;
+    margin-bottom: 10px;
+    line-height: 2.5em;
+    font-weight: 700;
 }
+
 .container .textos h2 span{
     font-size: 2.8em;
     color: #e51e2a;
 }
+
 .container .textos p{
     color: #fff;
 }
+
 .container .textos a{
     display: inline-block;
     margin-top: 50px;
@@ -99,6 +114,7 @@ font-weight: 700;
 .container .textos a:hover{
   transform: translateY(-10px);      
 }
+
 .icones {
     position: absolute;
     bottom: 40px;
@@ -107,10 +123,12 @@ font-weight: 700;
     align-items: center;
     justify-content: center;
 }
+
 .icones li{
     list-style: none;
     
 }
+
 .icones li a{
     display: inline-block;
     width: 50px;
@@ -123,22 +141,27 @@ font-weight: 700;
     justify-content: center;
     transition: 0.3s ease-in-out;
 }
+
 .icones li a:hover{
     background: #e51e2a;
     transform: translateY(-10px);
 }
+
 .icones li a img{
 transform:  scale(0.5);
 filter: invert(1);
 }
+
 .brasao{
     position: relative;
     left: -10;
     bottom: -70px;
 }
+
 .brasao img{
     width: 570px;
 }
+
 .brasao .img1{
 transform: rotate(0deg);
 }
